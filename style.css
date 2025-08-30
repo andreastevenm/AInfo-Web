@@ -143,25 +143,28 @@ button:hover {
 /* Section */
 section {
   padding-top: 6vh;
-  /* height: 90vh; */
+  height: 90vh;
+}
+
+/* Page size */
+.page {
+  /* border: solid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.page-text {
+  text-align: center; /* center text horizontally */
+  width: 70%;
+  /* border: solid; */
 }
 
 /* Provide Page */
 #provide {
   display: flex;
-  height: 90vh;
-}
-
-.provide-page {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start; /* center the text box horizontally */
-  align-items: center; /* stick to top inside */
-}
-
-.provide-page-text {
-  text-align: center; /* center text horizontally */
-  width: 70%;
+  /* height: 90vh; */
 }
 
 .provide-page-text h1 {
@@ -197,4 +200,22 @@ section {
 
 .under-provide-text {
   margin-top: 1.5rem;
+}
+
+/* Who Is This For Page */
+
+#foryou {
+  /* border: solid; */
+}
+.foryou-parent-text {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+.foryou-text {
+  width: 70%;
+  border: solid;
+  min-height: 50vh;
+  align-content: center;
 }
