@@ -23,7 +23,7 @@ p {
 }
 
 span {
-  color: rgb(27, 144, 234);
+  color: rgb(8, 9, 10);
   font-size: 1.5rem;
 }
 
@@ -215,7 +215,29 @@ section {
 }
 .foryou-text {
   width: 70%;
-  border: solid;
+  /* border: solid; */
   min-height: 50vh;
   align-content: center;
+  display: flex;
+}
+
+.foryou-text1 {
+  width: 20%;
+  /* border: solid; */
+  align-content: center;
+}
+
+.foryou-text2 {
+  width: 80%;
+  display: flex;
+  text-align: center;
+  gap: 3.6rem;
+  padding-top: 2rem;
+}
+
+.box {
+  padding-top: 0.4rem;
+  border: solid;
+  border-radius: 10px;
+  height: auto;
 }
