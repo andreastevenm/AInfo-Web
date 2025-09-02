@@ -164,6 +164,7 @@ section {
 /* Provide Page */
 #provide {
   display: flex;
+  /* border: solid; */
   /* height: 90vh; */
 }
 
@@ -240,4 +241,35 @@ section {
   border: solid;
   border-radius: 10px;
   height: auto;
+}
+
+/* Contact Page */
+
+#contact {
+  margin-top: 10rem;
+}
+
+.contact-box {
+  /* justify-content: flex-start;
+  align-items: center; */
+  width: 80%;
+  margin: 50px auto;
+  display: flex;
+}
+
+.contact-left {
+  border: solid;
+  flex-basis: 60%;
+  padding: 40px 60px;
+}
+.contact-right {
+  border: solid;
+  flex-basis: 40%;
+  padding: 40px;
+}
+
+.input-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
 }
