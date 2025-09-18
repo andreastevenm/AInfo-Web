@@ -3,10 +3,13 @@
 * {
   margin: 0;
   padding: 0;
-  padding-left: 0.2rem;
-  padding-right: 0.2rem;
-  overflow-x: hidden;
   background-color: #edebed;
+  box-sizing: border-box;
+  background: transparent;
+}
+
+li {
+  list-style: none;
 }
 
 html {
@@ -14,17 +17,8 @@ html {
   font-family: Poppins, sans-serif;
 }
 
-h1 {
-  font-size: 2.8rem;
-}
-
-p {
-  font-size: 1.2rem;
-}
-
-span {
-  color: rgb(8, 9, 10);
-  font-size: 1.5rem;
+body {
+  overflow-x: hidden;
 }
 
 /* Transition */
@@ -71,74 +65,7 @@ button:hover {
   border: none;
 } */
 
-/* Navbar */
-.navbar {
-  display: flex;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  justify-content: right;
-  align-items: center;
-  /* position: sticky; */
-}
 
-.logoimg {
-  width: 10%;
-}
-.nav {
-  display: flex;
-  width: 100%;
-  justify-content: right;
-  align-items: center;
-}
-
-.nav-li {
-  margin-right: 15px;
-}
-
-.navlinks {
-  /* border: solid; */
-  display: flex;
-  list-style: none;
-  align-content: center;
-  gap: 1rem;
-  cursor: pointer;
-}
-
-.navbar-register {
-  margin-right: 35px;
-}
-
-/* Main page */
-.main-page {
-  display: flex;
-  height: 90vh;
-  flex-direction: row;
-  /* border: solid; */
-}
-
-.main-page-text {
-  width: 100%;
-  text-align: center;
-  align-content: center;
-}
-
-.main-page-text h1 {
-  margin-bottom: 1rem;
-}
-.main-page-text p {
-  margin-bottom: 1rem;
-}
-
-.main-page-text button {
-  margin: 0 auto;
-}
-
-.image {
-  width: 100%;
-  height: auto;
-  align-content: center;
-  transform: translateX(30%);
-}
 
 /* Section */
 section {

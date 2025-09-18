@@ -4,33 +4,51 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AInfo</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style/index.css" />
+    <link rel="stylesheet" href="style/landing-page/navbar.css">
+    <link rel="stylesheet" href="style/landing-page/main-page.css">
     <link rel="shortcut icon" href="assets/logoonly.png" type="image/x-icon" />
   </head>
   <body>
     <!-- Landing Page -->
     <div id="landing-page">
-      <!-- -------------------- -->
       <div class="navbar">
-        <div class="logoimg">
-          <!-- <img src="/assets/finallogoai.png" alt="logo" /> -->
-          <h1>AInfo</h1>
+        <!-- logo section -->
+        <div class="logo-img">
+          <img src="/assets/logoonly.png" alt="logo" width=50 height=50 />
         </div>
-        <div class="nav">
-          <ul class="navlinks">
-            <li class="nav-li"><a href="#image">AInfo Image</a></li>
-            <li class="nav-li"><a href="ainfo-video.html">AInfo Video</a></li>
-            <li class="nav-li"><a href="#audio">AInfo Audio</a></li>
-            <li class="nav-li"><a href="#education">AInfo Education</a></li>
-            <li class="nav-li"><a href="#specialized">AInfo Specialized</a></li>
+        <!-- logo section end -->
+     
+        <!-- hamburger menu -->
+        <div class="hamburger-menu" id="nav-button">
+          <span id="bar1" class="bar1-normal"></span>
+          <span id="bar2" class="bar2-normal"></span>
+          <span id="bar3" class="bar3-normal"></span>
+        </div>
+        <!-- hamburger menu end -->
+
+        <!-- navigation section  -->
+        <nav class="navigation nav-nonactive">
+          <h2>
+            AInfo
+          </h2>
+          <ul class="nav-links">
+            <li class="nav-li"><a href="#image"><span class="ainfo-text">AInfo</span>  Image</a></li>
+            <li class="nav-li"><a href="ainfo-video.html"><span class="ainfo-text">AInfo</span> Video</a></li>
+            <li class="nav-li"><a href="#audio"><span class="ainfo-text">AInfo</span> Audio</a></li>
+            <li class="nav-li"><a href="#education"><span class="ainfo-text">AInfo</span> Education</a></li>
+            <li class="nav-li"><a href="#specialized"><span class="ainfo-text">AInfo</span> Specialized</a></li>
           </ul>
-          <!-- <div class="navbar-register">
-            <button class="navbuttons-login">Login</button>
-            <button class="navbuttons-signup">Sign Up</button>
-          </div> -->
-        </div>
+          <div class="navbar-register">
+            <button class="navbutton-login">Login</button>
+            <button class="navbutton-signup">Sign Up</button>
+          </div>
+        </nav>
+        <!-- navigation section end -->
+        
       </div>
-      <!-- ---------------------- -->
+
+      <!-- hero section  -->
       <div class="main-page">
         <div class="main-page-text">
           <h1>Still lost of looking for your perfect AI tools?</h1>
@@ -41,14 +59,14 @@
               ><b>AInfo!</b></span
             >
           </p>
-          <!-- <button> -->
           <a href="#provide" class="startnow-button">Start Now</a>
-          <!-- </button> -->
         </div>
-        <div class="image">
-          <img src="/assets/finalmainimg.png" alt="ai" style="width: 370px" />
+        <div class="hero-image">
+          <img src="/assets/finalmainimg.png" alt="AI" title="AI" width="100px" />
         </div>
       </div>
+      <!-- hero section end -->
+
     </div>
 
     <!-- What We Provide Page -->
@@ -200,5 +218,7 @@
         </div>
       </div>
     </section>
+
+    <script src="script.js"></script>
   </body>
 </html>
