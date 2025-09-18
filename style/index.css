@@ -184,6 +184,7 @@ section {
   width: 80%;
   margin: 50px auto;
   display: flex;
+  border-radius: 8px;
 }
 
 .contact-left {
@@ -240,6 +241,7 @@ label {
   border-radius: 30px;
   margin-top: 20px;
   font-weight: 600;
+  cursor: pointer;
 }
 
 tr td:first-child {
